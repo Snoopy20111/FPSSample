@@ -1,0 +1,2221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{62A57DA6-7A3E-42AC-A6B2-8B758AA8B397}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{62A57DA6-7A3E-42AC-A6B2-8B758AA8B397}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Characters" ID="{8C982BC9-A362-404F-9A43-9977B7B7B005}" ShortID="217564361">
+					<ChildrenList>
+						<Sound Name="GirlJetPack01" ID="{605326C3-E1DF-49A9-89E9-80E7A2F6A77B}" ShortID="1023776185">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GirlJetPack01" ID="{4C775AB4-FF2C-4C04-923F-3417A4093474}">
+									<Language>SFX</Language>
+									<AudioFile>Characters\GirlJetPack01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="103752782"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GirlJetPack01" ID="{4C775AB4-FF2C-4C04-923F-3417A4093474}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="GirlFootsteps" ID="{76BE6703-1892-4116-A908-1C60C3B8022D}" ShortID="208113262">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{077B5530-5B91-4008-8485-E77CE82CC20D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GirlFootstepsV2-08" ID="{877B0047-2F33-426F-B2FF-582A4C0C8495}" ShortID="912966198">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlFootstepsV2-08" ID="{3C6CD1DD-5FF4-43B8-B9AA-F81775A316D4}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlFootstepsV2-08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="460570153"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlFootstepsV2-08" ID="{3C6CD1DD-5FF4-43B8-B9AA-F81775A316D4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlFootstepsV2-06" ID="{56541EBE-7243-42FA-86A2-4B59A7E9F099}" ShortID="644168097">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlFootstepsV2-06" ID="{998E5C26-E624-4D32-BF9A-8EBA90C0E283}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlFootstepsV2-06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="578242962"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlFootstepsV2-06" ID="{998E5C26-E624-4D32-BF9A-8EBA90C0E283}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlFootstepsV2-11" ID="{5A26113C-5E3D-4929-997D-7A44FA744CB6}" ShortID="761008393">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlFootstepsV2-11" ID="{1FDD64E9-564E-4032-A360-2AC4AAA3622B}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlFootstepsV2-11.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="545664891"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlFootstepsV2-11" ID="{1FDD64E9-564E-4032-A360-2AC4AAA3622B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlFootstepsV2-07" ID="{9E2F77C9-E5F3-4E3F-8247-1F251897B2F9}" ShortID="552387723">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlFootstepsV2-07" ID="{5A1BAC90-D0D7-4750-9EFA-2E1349A9B25A}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlFootstepsV2-07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="494198464"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlFootstepsV2-07" ID="{5A1BAC90-D0D7-4750-9EFA-2E1349A9B25A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlFootstepsV2-02" ID="{C87A4949-7A6D-463F-BD9E-650619EA0BC9}" ShortID="85420257">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlFootstepsV2-02" ID="{D646AFA5-FF9B-4BFE-83EB-8648A6C1226F}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlFootstepsV2-02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="940826067"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlFootstepsV2-02" ID="{D646AFA5-FF9B-4BFE-83EB-8648A6C1226F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlFootstepsV2-01" ID="{C417E2F4-DCC8-46B6-9F4D-782B44126122}" ShortID="5477100">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlFootstepsV2-01" ID="{2E48D89F-2C8C-4B51-8416-802C86970E21}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlFootstepsV2-01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="775691806"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlFootstepsV2-01" ID="{2E48D89F-2C8C-4B51-8416-802C86970E21}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlFootstepsV2-03" ID="{A5F7832D-E78B-4D1C-AF7F-2AA4BD665F28}" ShortID="89843186">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlFootstepsV2-03" ID="{D3935ED2-F5F3-482D-A611-F816B16CC571}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlFootstepsV2-03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="730843224"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlFootstepsV2-03" ID="{D3935ED2-F5F3-482D-A611-F816B16CC571}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlFootstepsV2-09" ID="{BEFAB9F3-E3EA-44FF-874E-36715BC7877E}" ShortID="454714858">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlFootstepsV2-09" ID="{9CB260D9-BE48-41D9-8F46-01956E125914}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlFootstepsV2-09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="202709064"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlFootstepsV2-09" ID="{9CB260D9-BE48-41D9-8F46-01956E125914}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlFootstepsV2-05" ID="{20056B44-8692-4499-953B-C89C3EAEC118}" ShortID="933976203">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlFootstepsV2-05" ID="{00F81EE9-F1C0-419E-BE51-5934FB2FBEA7}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlFootstepsV2-05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="301783685"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlFootstepsV2-05" ID="{00F81EE9-F1C0-419E-BE51-5934FB2FBEA7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlFootstepsV2-10" ID="{AE5BD9B0-9107-4DAD-99BB-DD73B4B0408E}" ShortID="364488869">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlFootstepsV2-10" ID="{2209DBBA-762B-48DB-B5CD-36AAB6A451D1}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlFootstepsV2-10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="119864770"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlFootstepsV2-10" ID="{2209DBBA-762B-48DB-B5CD-36AAB6A451D1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlFootstepsV2-04" ID="{68B85612-F996-49CD-82A4-81A4830C56A3}" ShortID="906436675">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlFootstepsV2-04" ID="{A605D48E-2E22-42DA-8BD5-52507B974557}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlFootstepsV2-04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="229274390"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlFootstepsV2-04" ID="{A605D48E-2E22-42DA-8BD5-52507B974557}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="GirlLandSmall" ID="{135F039B-7D05-4160-9662-DE916A2BC7F2}" ShortID="19587478">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GirlLandSmall02" ID="{83FA6F15-965D-4768-8412-8BA6BCC24035}" ShortID="974753695">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlLandSmall02" ID="{FFD4AE45-DD5D-454E-8424-A8CC8FE5715D}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlLandSmall02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="541829880"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlLandSmall02" ID="{FFD4AE45-DD5D-454E-8424-A8CC8FE5715D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlLandSmall01" ID="{A6FEB81A-B4BE-4279-A077-20D82931CF04}" ShortID="332862262">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlLandSmall01" ID="{E6752C7B-B552-483B-8FC9-A6EE79EF542E}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlLandSmall01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="784816727"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlLandSmall01" ID="{E6752C7B-B552-483B-8FC9-A6EE79EF542E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlLandSmall03" ID="{C4A1E493-AACD-411C-9A25-71D3C9C67995}" ShortID="191109679">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlLandSmall03" ID="{1C807ADA-A741-4DA3-BE29-F7452FF00B41}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlLandSmall03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="175500010"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlLandSmall03" ID="{1C807ADA-A741-4DA3-BE29-F7452FF00B41}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlLandSmall04" ID="{8C765793-DF1A-45A4-976A-B995F5C773F0}" ShortID="647595985">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlLandSmall04" ID="{49D221F8-21CB-4764-9B62-04632A2C218C}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlLandSmall04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="254701705"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlLandSmall04" ID="{49D221F8-21CB-4764-9B62-04632A2C218C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlLandSmall06" ID="{3752DF48-EE6F-4011-A3B9-DF0C609C2780}" ShortID="912120016">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlLandSmall06" ID="{2D6BFC60-D742-4ACF-BA35-9FEE6BF76843}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlLandSmall06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="108205768"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlLandSmall06" ID="{2D6BFC60-D742-4ACF-BA35-9FEE6BF76843}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlLandSmall05" ID="{ECB6A007-5D82-46CD-8647-C1F44BED383E}" ShortID="768047729">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlLandSmall05" ID="{3DC082FC-DB58-4440-A2EB-ADCC6E967184}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlLandSmall05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="435912460"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlLandSmall05" ID="{3DC082FC-DB58-4440-A2EB-ADCC6E967184}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="GirlLandLarge" ID="{18AC4304-844B-44A2-9997-9DFD8DBF44AC}" ShortID="796103964">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GirlLandLarge01" ID="{58B9501B-9D81-48B4-B437-D02B50FF0B5F}" ShortID="483669571">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlLandLarge01" ID="{D3F6387F-7E3A-4D4F-8A74-3A4F070CD173}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlLandLarge01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="753217713"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlLandLarge01" ID="{D3F6387F-7E3A-4D4F-8A74-3A4F070CD173}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlLandLarge02" ID="{7F715BFA-C2E8-45F2-958D-29A5BD112493}" ShortID="1048698157">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlLandLarge02" ID="{9F1F285F-55C3-47D0-8F7E-BEFDA31CA5B5}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlLandLarge02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="377615781"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlLandLarge02" ID="{9F1F285F-55C3-47D0-8F7E-BEFDA31CA5B5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlLandLarge03" ID="{7771A8B5-2019-49A9-B5A8-4D0C86BC0F5B}" ShortID="604571590">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlLandLarge03" ID="{AAECE857-CDF0-450E-9270-86DDFD42C2B3}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlLandLarge03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="158604060"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlLandLarge03" ID="{AAECE857-CDF0-450E-9270-86DDFD42C2B3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="GirlMovementClothes" ID="{09CF1B2B-F11A-49AF-B30B-9FFCC6C7E237}" ShortID="690419397">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GirlMovementClothes06" ID="{F67DB7D7-33AD-45A6-A699-CFE15D489F7D}" ShortID="412569566">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlMovementClothes06" ID="{1348740F-1A6C-4F2A-AB02-14479A7AD6AD}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlMovementClothes06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="857109325"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlMovementClothes06" ID="{1348740F-1A6C-4F2A-AB02-14479A7AD6AD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlMovementClothes07" ID="{562A7DEF-F5A6-4959-837B-8D53BB0B0E0A}" ShortID="114931137">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlMovementClothes07" ID="{F120A574-B482-439D-A272-20C0B7997927}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlMovementClothes07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="637845384"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlMovementClothes07" ID="{F120A574-B482-439D-A272-20C0B7997927}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlMovementClothes01" ID="{CE9D323A-DC3A-4E40-A4B0-4A065FCC77F1}" ShortID="922011445">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlMovementClothes01" ID="{12887187-5526-4B5E-939C-1580C081CC2B}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlMovementClothes01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="255993887"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlMovementClothes01" ID="{12887187-5526-4B5E-939C-1580C081CC2B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlMovementClothes05" ID="{7E8D84A5-3BC9-4C4C-A6A9-5B22BCCE3C49}" ShortID="386337759">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlMovementClothes05" ID="{A1019E7A-C3B7-4F8D-8349-F100DDCFB654}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlMovementClothes05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="196910708"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlMovementClothes05" ID="{A1019E7A-C3B7-4F8D-8349-F100DDCFB654}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlMovementClothes10" ID="{C496CF0B-8674-49D1-8048-60DCD35A7646}" ShortID="915926922">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlMovementClothes10" ID="{52178405-93E6-41F8-BA22-3DEB70A09CCA}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlMovementClothes10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="35696192"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlMovementClothes10" ID="{52178405-93E6-41F8-BA22-3DEB70A09CCA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlMovementClothes08" ID="{05CDC3D6-5D4F-4F62-9219-129C9A7F8ED7}" ShortID="171731342">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlMovementClothes08" ID="{C18860F5-16DF-45EE-9835-8C695F142D47}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlMovementClothes08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="493818141"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlMovementClothes08" ID="{C18860F5-16DF-45EE-9835-8C695F142D47}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlMovementClothes09" ID="{DE11951E-1B13-40B2-B069-3A77770D3EC0}" ShortID="798618473">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlMovementClothes09" ID="{C7A5C3B4-568E-4341-9477-84A8279B8DFC}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlMovementClothes09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="89025430"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlMovementClothes09" ID="{C7A5C3B4-568E-4341-9477-84A8279B8DFC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlMovementClothes03" ID="{D1E15A92-4EE0-40CE-AA83-36175D47D374}" ShortID="198149206">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlMovementClothes03" ID="{A1966B06-800E-4317-8A10-A4523AD27CBB}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlMovementClothes03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="884851289"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlMovementClothes03" ID="{A1966B06-800E-4317-8A10-A4523AD27CBB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlMovementClothes02" ID="{565C4BEA-5DEB-4813-AE70-D211E0C102A2}" ShortID="494526652">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlMovementClothes02" ID="{151C643F-53A1-487A-BCD1-8B77836569F4}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlMovementClothes02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="214727711"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlMovementClothes02" ID="{151C643F-53A1-487A-BCD1-8B77836569F4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GirlMovementClothes04" ID="{73A0B208-0F7F-4673-A2B4-FAF573A4B3A9}" ShortID="442856675">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GirlMovementClothes04" ID="{897C3EF0-110F-49A0-B556-CC9715C4D4EF}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\GirlMovementClothes04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="393336753"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GirlMovementClothes04" ID="{897C3EF0-110F-49A0-B556-CC9715C4D4EF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Robot_Footsteps" ID="{9779EE55-96F5-4E34-BFDB-AA1743FD7940}" ShortID="1005260127">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Robot_footstep_01" ID="{BBA8A610-38F2-4F77-ACAB-FB44636216C9}" ShortID="908806974">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_footstep_01" ID="{729F561D-A52F-4744-9896-B4588CEA766E}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Robot_footstep_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="974760560"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_footstep_01" ID="{729F561D-A52F-4744-9896-B4588CEA766E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_footstep_07" ID="{14651B24-809D-4939-82A5-08250ECF43FF}" ShortID="769674419">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_footstep_07" ID="{CEFF357E-06FB-4A0E-9C86-BB64456D121E}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Robot_footstep_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="20883457"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_footstep_07" ID="{CEFF357E-06FB-4A0E-9C86-BB64456D121E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_footstep_10" ID="{C40459CE-4D3D-4D65-B2FA-9689417AC88F}" ShortID="938162826">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_footstep_10" ID="{F2033AC5-065A-4014-9818-501C7E4C3F69}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Robot_footstep_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="237408364"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_footstep_10" ID="{F2033AC5-065A-4014-9818-501C7E4C3F69}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_footstep_08" ID="{9FE25780-CAC5-4A84-BE30-093B69B74115}" ShortID="607354543">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_footstep_08" ID="{8F191779-4D6A-43EA-B9AC-FFEACB67D749}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Robot_footstep_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="655753737"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_footstep_08" ID="{8F191779-4D6A-43EA-B9AC-FFEACB67D749}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_footstep_03" ID="{5392C043-160B-4CA0-BAF1-B5DA5103C959}" ShortID="433453341">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_footstep_03" ID="{619C84E2-D661-4D3B-AC4C-2C1519CFCA0B}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Robot_footstep_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="941681523"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_footstep_03" ID="{619C84E2-D661-4D3B-AC4C-2C1519CFCA0B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_footstep_11" ID="{DF3D13EA-0916-48C9-BF3A-A76D6F1291E1}" ShortID="945043590">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_footstep_11" ID="{AC588652-015D-4130-954D-2D7B9EEA4CE6}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Robot_footstep_11.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="469281503"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_footstep_11" ID="{AC588652-015D-4130-954D-2D7B9EEA4CE6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_footstep_04" ID="{EF92B78E-A9CE-4E98-B40C-2253778290A9}" ShortID="519877221">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_footstep_04" ID="{24E3280B-9172-4BA1-8523-516F3AF0B2AA}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Robot_footstep_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="497502581"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_footstep_04" ID="{24E3280B-9172-4BA1-8523-516F3AF0B2AA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_footstep_06" ID="{0847988A-5F18-4525-A2E8-3700EBC57D32}" ShortID="989790762">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_footstep_06" ID="{0C648855-353E-4F5F-83D9-D6CC254BF89F}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Robot_footstep_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="898657963"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_footstep_06" ID="{0C648855-353E-4F5F-83D9-D6CC254BF89F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_footstep_09" ID="{5B2D6E42-9237-48E8-93A2-EC1642F9A058}" ShortID="873237899">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_footstep_09" ID="{550AFA4E-E642-49C6-AD6C-07F12166A719}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Robot_footstep_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="123861626"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_footstep_09" ID="{550AFA4E-E642-49C6-AD6C-07F12166A719}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_footstep_02" ID="{8A3FDE85-99F8-4F08-A00F-ABD0C3110724}" ShortID="624481515">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_footstep_02" ID="{7F8D2562-C779-4780-B7D5-5F753152CA08}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Robot_footstep_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="914892265"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_footstep_02" ID="{7F8D2562-C779-4780-B7D5-5F753152CA08}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_footstep_05" ID="{97DCA83B-46D0-4C51-85FB-544275F18F39}" ShortID="603457321">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_footstep_05" ID="{4222C3C5-B33A-4558-8EEE-BF217D4F2351}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Robot_footstep_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="42493771"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_footstep_05" ID="{4222C3C5-B33A-4558-8EEE-BF217D4F2351}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_footstep_12" ID="{BE27BFD1-58B7-4344-9299-5BF54E655999}" ShortID="1001300661">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_footstep_12" ID="{1DD7EB24-BC2D-4B72-B88B-FDEC69275DC5}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Robot_footstep_12.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="109029623"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_footstep_12" ID="{1DD7EB24-BC2D-4B72-B88B-FDEC69275DC5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_footstep_15" ID="{82D1B6CB-9C17-44AA-A0A6-7D716D981A53}" ShortID="408283819">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_footstep_15" ID="{E44195AC-636B-4017-B361-2B794EF3CCF0}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Robot_footstep_15.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1052155351"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_footstep_15" ID="{E44195AC-636B-4017-B361-2B794EF3CCF0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_footstep_14" ID="{FD0E9216-7D74-45EA-A71B-C18D37E3EADA}" ShortID="720380497">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_footstep_14" ID="{ACFDDA29-F3D8-4CA3-9B3A-F857366BDE56}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Robot_footstep_14.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="438248314"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_footstep_14" ID="{ACFDDA29-F3D8-4CA3-9B3A-F857366BDE56}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_footstep_13" ID="{ED7C10BF-38AF-4D3C-B0C8-2BC01D4A4E89}" ShortID="572432102">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_footstep_13" ID="{73FF2488-9AEF-448D-920C-1E2F99AA240B}">
+											<Language>SFX</Language>
+											<AudioFile>Characters\Robot_footstep_13.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="269473900"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_footstep_13" ID="{73FF2488-9AEF-448D-920C-1E2F99AA240B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="HUD" ID="{01FB0134-5B65-4EE6-8649-D7E51FA16EBC}" ShortID="926224020">
+					<ChildrenList>
+						<Sound Name="Lethal01" ID="{805C1AB4-2C24-4873-A485-CA65F9044308}" ShortID="232072037">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lethal01" ID="{84FA42B3-FCDB-44C0-B955-E7CD0A8C5D28}">
+									<Language>SFX</Language>
+									<AudioFile>HUD\Lethal01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="326543039"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Lethal01" ID="{84FA42B3-FCDB-44C0-B955-E7CD0A8C5D28}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Lethal02" ID="{43AEBD1F-A219-4D60-A4C1-1C256294270B}" ShortID="579110616">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lethal02" ID="{FFB1A1D2-0089-49D4-B87D-6A685CC04CD0}">
+									<Language>SFX</Language>
+									<AudioFile>HUD\Lethal02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="899835179"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Lethal02" ID="{FFB1A1D2-0089-49D4-B87D-6A685CC04CD0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NonLethal01" ID="{55BA32D0-0E45-4C09-898D-26C1FCC9E13B}" ShortID="672380163">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NonLethal01" ID="{05ED1AEF-62BD-45D0-A261-2576A927D075}">
+									<Language>SFX</Language>
+									<AudioFile>HUD\NonLethal01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="309931606"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NonLethal01" ID="{05ED1AEF-62BD-45D0-A261-2576A927D075}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NonLethal02" ID="{AA037F2A-9328-4FEC-9CE9-EC82D2652D0C}" ShortID="175936816">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NonLethal02" ID="{1067F784-E1EF-4F96-9900-25AB9B922AC3}">
+									<Language>SFX</Language>
+									<AudioFile>HUD\NonLethal02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="509856324"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NonLethal02" ID="{1067F784-E1EF-4F96-9900-25AB9B922AC3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Impacts" ID="{2F9EA4AD-1B61-46B0-A869-996C06E7717E}" ShortID="416392175">
+					<ChildrenList>
+						<Sound Name="GirlWeaponImpact01" ID="{A487F92B-CAC8-4AC4-A446-E82D7AAE903F}" ShortID="747434572">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GirlWeaponImpact01" ID="{8476F043-E761-4AB3-AEF7-697D2348BFE4}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\GirlWeaponImpact01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="371449201"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GirlWeaponImpact01" ID="{8476F043-E761-4AB3-AEF7-697D2348BFE4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RobotWeaponImpact01" ID="{79493969-3840-4054-8AB5-14F77050FFF0}" ShortID="1054512229">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RobotWeaponImpact01" ID="{48F9AA44-D318-4861-9720-F1CAB07E83BA}">
+									<Language>SFX</Language>
+									<AudioFile>Impacts\RobotWeaponImpact01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="300084459"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RobotWeaponImpact01" ID="{48F9AA44-D318-4861-9720-F1CAB07E83BA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Level" ID="{B079EF02-4A87-41DB-AB53-22A842C06F0A}" ShortID="960157464">
+					<ChildrenList>
+						<Sound Name="BarrelExplode01" ID="{3158A9EA-C0D8-4F2B-857E-E0C93680BCE0}" ShortID="490989328">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BarrelExplode01" ID="{F8CEB248-877D-40A2-AF96-A78F1425534D}">
+									<Language>SFX</Language>
+									<AudioFile>Level\BarrelExplode01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="361692963"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BarrelExplode01" ID="{F8CEB248-877D-40A2-AF96-A78F1425534D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Menu" ID="{FFFDE5D4-7341-42EC-82A5-59CB895DB046}" ShortID="357154162">
+					<ChildrenList>
+						<Sound Name="UI-select01" ID="{2C994656-E444-4353-A9C2-0C194F9F3B57}" ShortID="993462039">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI-select01" ID="{14219BD7-FD1E-49BE-8433-8DD77001176B}">
+									<Language>SFX</Language>
+									<AudioFile>Menu\UI-select01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="525333003"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI-select01" ID="{14219BD7-FD1E-49BE-8433-8DD77001176B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI-select02" ID="{CD63C822-8600-4D9B-8B58-C2531338DCC2}" ShortID="208803087">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI-select02" ID="{4B223DA0-FB84-4ED1-8F4A-966EF7DEBB4D}">
+									<Language>SFX</Language>
+									<AudioFile>Menu\UI-select02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="188428614"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI-select02" ID="{4B223DA0-FB84-4ED1-8F4A-966EF7DEBB4D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI-select03" ID="{642475D9-18E3-4915-8B06-338EEE88C098}" ShortID="10308454">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI-select03" ID="{4305762D-8E47-465C-BEEB-DA38EB9BE136}">
+									<Language>SFX</Language>
+									<AudioFile>Menu\UI-select03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="22509988"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI-select03" ID="{4305762D-8E47-465C-BEEB-DA38EB9BE136}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI-select04wav" ID="{43CD5856-6BCD-4235-B4EC-969BD2A29C19}" ShortID="1012533632">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI-select04wav" ID="{51D1F10A-1FE2-451C-941A-2AF76FC430D9}">
+									<Language>SFX</Language>
+									<AudioFile>Menu\UI-select04wav.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="755609531"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI-select04wav" ID="{51D1F10A-1FE2-451C-941A-2AF76FC430D9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Weapons" ID="{6D58F15A-5D8C-494A-A865-023AAAA7B8A3}" ShortID="630333742">
+					<ChildrenList>
+						<Sound Name="GirlWeaponFire01" ID="{61E21863-C83E-4768-9BC8-7FF98EA143A3}" ShortID="731353176">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GirlWeaponFire01" ID="{4B245A1A-BA88-48B0-9A0C-44ED0510BBFF}">
+									<Language>SFX</Language>
+									<AudioFile>Weapons\GirlWeaponFire01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="340570864"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GirlWeaponFire01" ID="{4B245A1A-BA88-48B0-9A0C-44ED0510BBFF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GirlWeaponFireAlt01" ID="{183CA5D0-F8FC-4D57-A21C-46B4194A504C}" ShortID="426334395">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GirlWeaponFireAlt01" ID="{37A53A7B-48BE-468F-8120-F870DD2D01C2}">
+									<Language>SFX</Language>
+									<AudioFile>Weapons\GirlWeaponFireAlt01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="581835476"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GirlWeaponFireAlt01" ID="{37A53A7B-48BE-468F-8120-F870DD2D01C2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GirlWeaponFireAlt04" ID="{4C1B7E55-A0CF-4910-820A-A5D6B24127EC}" ShortID="356617527">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GirlWeaponFireAlt04" ID="{EDF5B214-26F8-4CEE-8D79-B996B794CC00}">
+									<Language>SFX</Language>
+									<AudioFile>Weapons\GirlWeaponFireAlt04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="313295137"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GirlWeaponFireAlt04" ID="{EDF5B214-26F8-4CEE-8D79-B996B794CC00}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GirlWeaponGrenadeExplodeV2" ID="{1619629A-8CBF-4752-9952-62C27D32B1B3}" ShortID="398471483">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GirlWeaponGrenadeExplodeV2" ID="{255ED7F1-2EFB-47CF-904C-BD7E118664AF}">
+									<Language>SFX</Language>
+									<AudioFile>Weapons\GirlWeaponGrenadeExplodeV2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="147104066"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GirlWeaponGrenadeExplodeV2" ID="{255ED7F1-2EFB-47CF-904C-BD7E118664AF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GirlWeaponGrenadeFire01" ID="{0C94E580-F8AE-4DA0-97BC-402B173597E2}" ShortID="653186615">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GirlWeaponGrenadeFire01" ID="{AB69E0CB-BA05-4253-8623-FECCA99540A1}">
+									<Language>SFX</Language>
+									<AudioFile>Weapons\GirlWeaponGrenadeFire01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="378278849"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GirlWeaponGrenadeFire01" ID="{AB69E0CB-BA05-4253-8623-FECCA99540A1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GirlWeaponGrenadeImpact01" ID="{885B7FCF-6AA2-4604-BF7F-DE461EB70041}" ShortID="617691151">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GirlWeaponGrenadeImpact01" ID="{FF7FF8CD-F8AC-40AC-B4AC-6EE20C6A97BD}">
+									<Language>SFX</Language>
+									<AudioFile>Weapons\GirlWeaponGrenadeImpact01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1052591625"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GirlWeaponGrenadeImpact01" ID="{FF7FF8CD-F8AC-40AC-B4AC-6EE20C6A97BD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GirlWeaponReload01" ID="{531441C6-B44D-409F-B8B7-713C256F04DD}" ShortID="391600395">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GirlWeaponReload01" ID="{7EEE7A55-EE6F-4651-91CD-FB29341408EC}">
+									<Language>SFX</Language>
+									<AudioFile>Weapons\GirlWeaponReload01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1041063363"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GirlWeaponReload01" ID="{7EEE7A55-EE6F-4651-91CD-FB29341408EC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GirlWeaponReloadPart1" ID="{80FBB9F4-BDAD-421D-9C07-9F44A8D02A12}" ShortID="135441005">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GirlWeaponReloadPart1" ID="{AE3826A6-6576-4B2C-A89D-D97A79464C66}">
+									<Language>SFX</Language>
+									<AudioFile>Weapons\GirlWeaponReloadPart1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="480770432"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GirlWeaponReloadPart1" ID="{AE3826A6-6576-4B2C-A89D-D97A79464C66}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GirlWeaponReloadPart2" ID="{89D0D566-AEDA-4E7F-B7F2-18E9ED570936}" ShortID="115765748">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GirlWeaponReloadPart2" ID="{71B4E075-D6B1-4E81-ACC9-005E02116C89}">
+									<Language>SFX</Language>
+									<AudioFile>Weapons\GirlWeaponReloadPart2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="538973573"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GirlWeaponReloadPart2" ID="{71B4E075-D6B1-4E81-ACC9-005E02116C89}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_grenade_bouce01" ID="{C69A2CC1-BC31-4EAD-9058-4DD91BF9A435}" ShortID="378272064">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_grenade_bouce01" ID="{13492BE7-1A9A-406B-AE67-97BDFB06E6A4}">
+									<Language>SFX</Language>
+									<AudioFile>Weapons\Robot_grenade_bouce01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="397030210"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_grenade_bouce01" ID="{13492BE7-1A9A-406B-AE67-97BDFB06E6A4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Robot_Gunfire" ID="{B128128C-9E41-415B-BB21-1C9CDEEDA36F}" ShortID="147427892">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{64E7B0A4-72DE-451B-AF58-7442C75EFADD}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Robot_gunfire_01" ID="{599B4F5B-41AF-4488-AFB9-645D37F5DE3F}" ShortID="497051450">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_01" ID="{1B7CFFB4-17C3-42B1-9F84-FC882B0EC2F9}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="697816096"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_01" ID="{1B7CFFB4-17C3-42B1-9F84-FC882B0EC2F9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_gunfire_16" ID="{C3484F67-7CC8-4D60-B16E-BBAA3DAE023D}" ShortID="898695932">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_16" ID="{A9F0229F-51D6-4D5C-9BB4-79846BC0B104}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_16.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="737126064"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_16" ID="{A9F0229F-51D6-4D5C-9BB4-79846BC0B104}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_gunfire_18" ID="{6C3B0447-F38F-4224-A571-C4F3DDD79298}" ShortID="677735201">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_18" ID="{CA6C98E9-0577-4CDD-87FB-C142DA81E056}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_18.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="886612368"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_18" ID="{CA6C98E9-0577-4CDD-87FB-C142DA81E056}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_gunfire_10" ID="{A79D02EB-5A5F-4810-BA8B-EDDD15994101}" ShortID="655898954">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_10" ID="{70BF71B1-BAA4-4ACC-8556-2944B769E7C8}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="832629730"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_10" ID="{70BF71B1-BAA4-4ACC-8556-2944B769E7C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_gunfire_12" ID="{EFE50C05-5D27-40D5-A6DC-81A9DD88E64E}" ShortID="154564852">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_12" ID="{C8FEF579-37C5-46EE-9F5C-C6A36796891B}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_12.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="557333482"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_12" ID="{C8FEF579-37C5-46EE-9F5C-C6A36796891B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_gunfire_05" ID="{903A1209-A1CD-4100-B9A5-E9DA95145AB8}" ShortID="709254217">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_05" ID="{72AE08F8-BBFE-462B-8D39-D6511CF7C8C3}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="627580339"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_05" ID="{72AE08F8-BBFE-462B-8D39-D6511CF7C8C3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_gunfire_08" ID="{6A651AF9-8752-4D0B-887E-AB0CF5BFCE4F}" ShortID="91976600">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_08" ID="{17E53F69-007C-402B-965E-D90875E2CDE1}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="904632349"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_08" ID="{17E53F69-007C-402B-965E-D90875E2CDE1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_gunfire_06" ID="{E6444CE1-DA3D-455D-8872-81130600696F}" ShortID="79462841">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_06" ID="{AFB52013-E8F7-4394-849C-AD31316AFF17}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="108788805"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_06" ID="{AFB52013-E8F7-4394-849C-AD31316AFF17}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_gunfire_03" ID="{ED02DF09-B9A2-4CAD-8DCC-35B4A6ADAB94}" ShortID="6490458">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_03" ID="{9F4CDC07-4300-4576-B356-44BF669C9D56}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="973687917"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_03" ID="{9F4CDC07-4300-4576-B356-44BF669C9D56}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_gunfire_09" ID="{9B35C2E2-4719-47C0-B981-092F1445FB19}" ShortID="376568987">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_09" ID="{027A826C-6226-402D-BB7B-033C026B44C9}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="979619534"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_09" ID="{027A826C-6226-402D-BB7B-033C026B44C9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_gunfire_04" ID="{B8972FB4-D632-4E55-8571-DE69BC69DC06}" ShortID="626068196">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_04" ID="{A03ED798-E761-45E6-91B0-AD40EAE1D1A9}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="175999932"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_04" ID="{A03ED798-E761-45E6-91B0-AD40EAE1D1A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_gunfire_11" ID="{5B01268A-BB27-47DD-8F62-2E4594D93EFD}" ShortID="988768525">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_11" ID="{B01E530F-5573-4D12-B8D1-724E64BCCE87}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_11.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="260952833"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_11" ID="{B01E530F-5573-4D12-B8D1-724E64BCCE87}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_gunfire_13" ID="{2091D37B-D2FF-411E-B13E-56C70DCB55E2}" ShortID="848062411">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_13" ID="{EC6A8B55-0846-4BAC-8E7D-952394BF1463}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_13.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="703131251"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_13" ID="{EC6A8B55-0846-4BAC-8E7D-952394BF1463}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_gunfire_17" ID="{DFE4102B-4C17-4608-945E-9EBD6791468E}" ShortID="263528558">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_17" ID="{246194F0-130A-49FA-8CD2-3BDCA0529E4E}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_17.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1013444466"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_17" ID="{246194F0-130A-49FA-8CD2-3BDCA0529E4E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_gunfire_19" ID="{4DDFC603-5579-4E63-AA84-2E35EE1EBD83}" ShortID="697618563">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_19" ID="{5D2E4E60-1C9D-456F-8B28-6268A286B3CD}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_19.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="552782202"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_19" ID="{5D2E4E60-1C9D-456F-8B28-6268A286B3CD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_gunfire_07" ID="{95B94CD4-E3C1-426A-813D-D02C55B2F96A}" ShortID="179325814">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_07" ID="{80120073-16D4-42F3-873F-155EDC1D2771}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="399187606"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_07" ID="{80120073-16D4-42F3-873F-155EDC1D2771}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_gunfire_14" ID="{B967D7BF-D149-48CE-976F-B4A06528846E}" ShortID="750206179">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_14" ID="{46645737-0DF8-45C9-9C55-2B55EB353E70}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_14.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="658740579"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_14" ID="{46645737-0DF8-45C9-9C55-2B55EB353E70}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_gunfire_15" ID="{1023A248-0E57-4121-ABCC-E3C14FF9C09A}" ShortID="758019638">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_15" ID="{54A632D1-DC02-429A-B8F0-A230AC849566}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_15.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="248025600"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_15" ID="{54A632D1-DC02-429A-B8F0-A230AC849566}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_gunfire_02" ID="{FD641415-975A-4535-B783-ED1C0ED10214}" ShortID="110466461">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_gunfire_02" ID="{F65172F8-B5C2-42AC-9505-1FE7614FBEF3}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\Robot_gunfire_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="600310092"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_gunfire_02" ID="{F65172F8-B5C2-42AC-9505-1FE7614FBEF3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="RobotGunVariation02" ID="{0D13FBBA-C09F-476C-B4C0-CF8381B38A7F}" ShortID="839321083">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RobotGunVariation02" ID="{2248D582-42ED-4F72-A561-73B8F7FE4C88}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\RobotGunVariation02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="905481994"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="RobotGunVariation02" ID="{2248D582-42ED-4F72-A561-73B8F7FE4C88}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="RobotGunVariation03" ID="{BF0FFA37-357B-4396-90B6-F1184F677B6E}" ShortID="411242260">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RobotGunVariation03" ID="{90D2077A-1C17-480F-A394-47AE113C072B}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\RobotGunVariation03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="666874834"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="RobotGunVariation03" ID="{90D2077A-1C17-480F-A394-47AE113C072B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="RobotGunVariation01" ID="{221260CA-BDCD-4F1C-BB6D-8FF1EC20A3E7}" ShortID="332353160">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RobotGunVariation01" ID="{B9912E5F-052C-4FFA-A5AF-F2C676A10B21}">
+											<Language>SFX</Language>
+											<AudioFile>Weapons\RobotGunVariation01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="299726803"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="RobotGunVariation01" ID="{B9912E5F-052C-4FFA-A5AF-F2C676A10B21}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{79598EB2-0AB1-4F6F-999F-BF4BB3D8555B}" ShortID="13157656">
+					<ChildrenList>
+						<Sound Name="InGameMusic01" ID="{09A3EBB8-45D6-461C-A639-9D02570E0D91}" ShortID="318186007">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="InGameMusic01" ID="{0EBD7D59-AAE0-421E-9944-8FA1D0836665}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient\InGameMusic01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="34506292"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="InGameMusic01" ID="{0EBD7D59-AAE0-421E-9944-8FA1D0836665}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UnitySampleGame-TitleScreenMusic" ID="{2334E657-A98E-4232-80A7-8132A9CC71BF}" ShortID="620376312">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UnitySampleGame-TitleScreenMusic" ID="{7CB41132-2C2C-4134-9D4E-F53F0FE7CC0C}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient\UnitySampleGame-TitleScreenMusic.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="350407682"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UnitySampleGame-TitleScreenMusic" ID="{7CB41132-2C2C-4134-9D4E-F53F0FE7CC0C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UnitySampleGameDroneMusic-action" ID="{03389315-11B0-4E1B-9148-909424A6687E}" ShortID="940143941">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C5BAE17-BB63-4D91-B56D-DF641FA2C5E8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5084D8DC-B3CD-439B-97E4-CD1425068074}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UnitySampleGameDroneMusic-action" ID="{68730DCA-78B2-4610-B326-54BC638DEE60}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient\UnitySampleGameDroneMusic-action.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="733871231"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UnitySampleGameDroneMusic-action" ID="{68730DCA-78B2-4610-B326-54BC638DEE60}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
